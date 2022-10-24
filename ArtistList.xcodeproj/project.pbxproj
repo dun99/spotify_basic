@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5417644A28FC488C009FDF88 /* ArtistViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5417644928FC488C009FDF88 /* ArtistViewCell.swift */; };
+		5417644C28FC4C5A009FDF88 /* ArtistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5417644B28FC4C5A009FDF88 /* ArtistModel.swift */; };
+		5417644E28FC648D009FDF88 /* ListSongController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5417644D28FC648D009FDF88 /* ListSongController.swift */; };
+		5417645028FEF762009FDF88 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5417644F28FEF762009FDF88 /* Utils.swift */; };
+		5417645228FF07C2009FDF88 /* ApiServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5417645128FF07C2009FDF88 /* ApiServices.swift */; };
+		5417645428FF07EF009FDF88 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5417645328FF07EF009FDF88 /* Constants.swift */; };
+		54EF2658290058B0002E20A8 /* TracksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EF2657290058B0002E20A8 /* TracksViewController.swift */; };
+		54EF265C29005ADB002E20A8 /* TrackViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EF265B29005ADB002E20A8 /* TrackViewCell.swift */; };
 		54FAD6EF28FC433200FB3E47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FAD6EE28FC433200FB3E47 /* AppDelegate.swift */; };
 		54FAD6F128FC433200FB3E47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FAD6F028FC433200FB3E47 /* SceneDelegate.swift */; };
 		54FAD6F328FC433200FB3E47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FAD6F228FC433200FB3E47 /* ViewController.swift */; };
@@ -36,6 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5417644928FC488C009FDF88 /* ArtistViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistViewCell.swift; sourceTree = "<group>"; };
+		5417644B28FC4C5A009FDF88 /* ArtistModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistModel.swift; sourceTree = "<group>"; };
+		5417644D28FC648D009FDF88 /* ListSongController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSongController.swift; sourceTree = "<group>"; };
+		5417644F28FEF762009FDF88 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		5417645128FF07C2009FDF88 /* ApiServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServices.swift; sourceTree = "<group>"; };
+		5417645328FF07EF009FDF88 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		54EF2657290058B0002E20A8 /* TracksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracksViewController.swift; sourceTree = "<group>"; };
+		54EF265B29005ADB002E20A8 /* TrackViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackViewCell.swift; sourceTree = "<group>"; };
 		54FAD6EB28FC433200FB3E47 /* ArtistList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtistList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54FAD6EE28FC433200FB3E47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54FAD6F028FC433200FB3E47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +122,14 @@
 				54FAD6F728FC433400FB3E47 /* Assets.xcassets */,
 				54FAD6F928FC433400FB3E47 /* LaunchScreen.storyboard */,
 				54FAD6FC28FC433400FB3E47 /* Info.plist */,
+				5417644928FC488C009FDF88 /* ArtistViewCell.swift */,
+				5417644B28FC4C5A009FDF88 /* ArtistModel.swift */,
+				5417644D28FC648D009FDF88 /* ListSongController.swift */,
+				5417644F28FEF762009FDF88 /* Utils.swift */,
+				5417645128FF07C2009FDF88 /* ApiServices.swift */,
+				5417645328FF07EF009FDF88 /* Constants.swift */,
+				54EF2657290058B0002E20A8 /* TracksViewController.swift */,
+				54EF265B29005ADB002E20A8 /* TrackViewCell.swift */,
 			);
 			path = ArtistList;
 			sourceTree = "<group>";
@@ -259,7 +283,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				54FAD6F328FC433200FB3E47 /* ViewController.swift in Sources */,
+				5417644A28FC488C009FDF88 /* ArtistViewCell.swift in Sources */,
+				5417645228FF07C2009FDF88 /* ApiServices.swift in Sources */,
+				5417644C28FC4C5A009FDF88 /* ArtistModel.swift in Sources */,
+				54EF2658290058B0002E20A8 /* TracksViewController.swift in Sources */,
+				54EF265C29005ADB002E20A8 /* TrackViewCell.swift in Sources */,
+				5417645028FEF762009FDF88 /* Utils.swift in Sources */,
+				5417645428FF07EF009FDF88 /* Constants.swift in Sources */,
 				54FAD6EF28FC433200FB3E47 /* AppDelegate.swift in Sources */,
+				5417644E28FC648D009FDF88 /* ListSongController.swift in Sources */,
 				54FAD6F128FC433200FB3E47 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
